@@ -39,6 +39,14 @@ const TranslationPage = () => {
 
   return (
     <div className="translation-page">
+      <div className='comingsoon'>
+        <div className='Sohbet'>
+          <p>Sohbet Yap</p>
+        </div>
+        <div className='Kelimeler'>
+          <p>Yeni Kelimeler Oğren</p>
+        </div>
+      </div>
       <div className="language-selection">
         <div className="language-area">
           <select

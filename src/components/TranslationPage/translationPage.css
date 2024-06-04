@@ -9,7 +9,20 @@
   background-color: white;
   height: 70vh;
 }
-
+.comingsoon{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  width: 85%;
+}
+.Kelimeler,
+ .Sohbet{
+  background-color: #218838;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
 .language-selection {
   display: flex;
   align-items: center;
