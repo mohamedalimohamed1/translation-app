@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/landingPage/NavbarSec/navbar.jsx';
@@ -11,7 +10,7 @@ import TranslationPage from './components/TranslationPage/TranslationPage.jsx';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/translation-app">
       <Navbar />
       <Routes>
         <Route path="/" element={<>
