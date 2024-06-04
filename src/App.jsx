@@ -1,3 +1,4 @@
+// src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/landingPage/NavbarSec/navbar.jsx';
@@ -13,7 +14,12 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<><Hero /><Support /><Customer /><Contacts /></>} />
+        <Route path="/" element={<>
+          <Hero />
+          <Support />
+          <Customer />
+          <Contacts />
+        </>} />
         <Route path="/translate" element={<TranslationPage />} />
       </Routes>
       <FooterSec />
