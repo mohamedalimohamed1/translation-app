@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    align-items:  center;
+    height: 70px;
+    padding-top: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(24, 40, 65);
+    z-index: 100;
+}
+.navbar .logo-sec{
+    width:  50%;
+}
+.navbar .logo-sec img{
+    width: 120px;
+    margin-left: 50px;
+}
+.navbar .nav-sec{
+    width: 50%;
+}
+.navbar .nav-sec ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.navbar .nav-sec ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.navbar .nav-sec ul li:hover{
+    border-bottom: 2px  solid white;
+}
+.navbar .nav-sec ul .login{
+    background-color: rgb(76, 173, 215);
+    border-radius: 25px;
+    padding: 7px;
+    width: 90px;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 5px hsl(0, 0%, 21%),
+   -1px -1px 5px hsl(0, 0%, 21%);
+   letter-spacing:  0.3px;
+   border-bottom: 2px  solid white;
+}

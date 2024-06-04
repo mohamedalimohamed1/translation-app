@@ -1,0 +1,80 @@
+.contacts{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.contacts-top-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    height: 10%;
+    color: white;
+    width: 100%;
+}
+.contacts-bottom-sec{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.contacts-left-sec{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 60px;
+}
+.form-head-sec{
+    height: 15%;
+}
+.form-head-sec h3{
+    font-size: 35px;
+    color: rgb(9, 182, 240);
+    padding: 10px;
+}
+.form-sec{
+    height: 85%;
+    width: 100%;
+}
+.form-sec form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    position: relative;
+    border-radius: 15px;
+    height: 25px;
+}
+.form-sec form textarea{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    resize: none;
+    height: 70px;
+}
+.form-sec form button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(9, 182, 240);
+    color: white;
+    cursor: pointer;
+}
+.contacts-right-sec{
+    width: 50%;
+}
+form span{
+    font-size: 15px;
+    padding: 0 5px;
+    color: green;
+}

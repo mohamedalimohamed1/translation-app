@@ -1,0 +1,80 @@
+.customer {
+    padding: 20px;
+    margin-top: 70px;
+    height: 100vh;
+}
+
+.cust-top-sec {
+    text-align: center;
+    height: 10%;
+}
+
+.cust-rev-title {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.cust-rev-sub-title {
+    font-size: 1rem;
+    color: hsl(0, 0%, 70%);
+}
+
+.cust-middle-sec{
+    height: 90%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cust-middle-sec .left-arrow,
+.right-arrow{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cust-cards{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+}
+.cust-cards img{
+    width: 40px;
+    padding: 4px 5px;
+    border: 2px solid rgb(32, 163, 163);
+    border-radius: 50%;
+}
+.cust-card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 20%;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 10px 20px;
+    max-height: 40vh;
+    border-radius: 30px;
+    background-color: rgb(22, 33, 50);
+}
+.cust-head{
+    height: 45%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cust-head h1,h2{
+    font-size: 20px;
+}
+.cust-description{
+    height: 45%;
+    border-top: 1px solid hsl(0, 0%, 50%);
+    margin-top: 40px;
+    padding: 20px 0;
+}
+

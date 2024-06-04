@@ -1,0 +1,108 @@
+.LangSupport{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:  center;
+    margin-top: 100px;
+}
+.lang-supp-top-sec{
+    text-align:  center;
+}
+.lang-supp-top-sec h2{
+    color: white;
+    font-size: 1.6rem;
+}
+.lang-supp-top-sec p{
+    margin-top: 10px;
+    color: hsl(0, 0%, 80%);
+}
+.lang-supp-bottom-sec{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.lang-supp-left-sec{
+    width:  50%;
+    display:  flex;
+    justify-content: space-between;
+    background-image: url(../../../assets/librarybackg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.lang-supp-left-sec .benefits{
+    width: 50%;
+    display:  flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(38, 38, 91, 0.2); 
+    backdrop-filter: blur(3px); 
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.lang-supp-left-sec .benefits p{
+    color: hsl(0, 0%, 70%);
+    padding: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 50;
+    font-size: 15px;
+    background-color: hsl(217, 46%, 19%);
+    border-radius: 15px;
+}
+.lang-supp-left-sec .benefits p::before {
+    content: '\201C';
+    font-size: 20px;
+    color:  rgb(0, 255, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lang-supp-left-sec .benefits p::after {
+    content: '\201D';
+    font-size: 20px;
+    color:  rgb(0, 255, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lang-supp-left-sec .lang-supp-left-sec-img{
+    background-color: rgba(38, 38, 91, 0.2); 
+    backdrop-filter: blur(3px); 
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    width: 50%;
+}
+
+
+.lang-supp-right-sec{
+    width:  50%;
+    display:  flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.lang-supp-right-sec h3{
+    color: rgb(24, 40, 65);
+}
+.lang-supp-right-sec p{
+    color: white;
+}
+.lang-supp-english-card,
+.lang-supp-Turkish-card,
+.lang-supp-french-card,
+.lang-supp-Spanish-card{
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(15px); 
+    padding: 15px;
+    border-radius: 30px;
+    position: relative;
+    width: 100%;
+}
+.lang-supp-card-icon{
+    position: absolute;
+    right: -5px;
+    top: 0;
+}
+.lang-supp-card-icon img{
+    width: 25px;
+}
