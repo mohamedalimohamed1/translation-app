@@ -23,14 +23,13 @@ const Customer = () => {
                         <img src={custOneImg} alt="Birinci Müşteri" />
                     </div>
                     <div className='cust-content'>
-                        <h1 className='cust-name'>J*** Doe</h1>
+                        <h1 className='cust-name'>Ayşe Y.</h1>
                         <h2 className='cust-title'>Web Geliştirici</h2>
                     </div>
                 </div>
                 <div className='cust-description'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Nulla nec ex eget dolor lobortis lacinia.
-                     Donec blandit ex vel felis tristique, sed elementum enim vestibulum.
+                    <p>"Bu projeyi kullanarak dil öğrenme sürecim inanılmaz hızlandı!
+                         Hem eğlenceli hem de öğretici, herkese tavsiye ederim."
                     </p>
                 </div>
             </div>
@@ -40,14 +39,13 @@ const Customer = () => {
                         <img src={custOneImg} alt="Birinci Müşteri" />
                     </div>
                     <div className='cust-content'>
-                        <h1 className='cust-name'>J*** Doe</h1>
-                        <h2 className='cust-title'>Web Geliştirici</h2>
+                        <h1 className='cust-name'>Mehmet K.</h1>
+                        <h2 className='cust-title'>Backend Geliştirici</h2>
                     </div>
                 </div>
                 <div className='cust-description'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Nulla nec ex eget dolor lobortis lacinia.
-                     Donec blandit ex vel felis tristique, sed elementum enim vestibulum.
+                    <p>"Dil öğrenirken pratik yapmak hiç bu kadar kolay ve keyifli olmamıştı. Proje,
+                         öğrendiğim her yeni kelimeyle daha da ilginç hale geliyor."
                     </p>
                 </div>
             </div>
@@ -57,14 +55,13 @@ const Customer = () => {
                         <img src={custOneImg} alt="Birinci Müşteri" />
                     </div>
                     <div className='cust-content'>
-                        <h1 className='cust-name'>J*** Doe</h1>
-                        <h2 className='cust-title'>Web Geliştirici</h2>
+                        <h1 className='cust-name'>Elif D.</h1>
+                        <h2 className='cust-title'>Frontend Geliştirici</h2>
                     </div>
                 </div>
                 <div className='cust-description'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Nulla nec ex eget dolor lobortis lacinia.
-                     Donec blandit ex vel felis tristique, sed elementum enim vestibulum.
+                    <p>"Bu projeyi kullanmak, dil öğrenme konusunda motivasyonumu artırdı.
+                         Farklı dillerde pratik yapmak gerçekten çok faydalı oldu."
                     </p>
                 </div>
             </div>
@@ -74,14 +71,13 @@ const Customer = () => {
                         <img src={custOneImg} alt="Birinci Müşteri" />
                     </div>
                     <div className='cust-content'>
-                        <h1 className='cust-name'>J*** Doe</h1>
-                        <h2 className='cust-title'>Web Geliştirici</h2>
+                        <h1 className='cust-name'>Fatma A.</h1>
+                        <h2 className='cust-title'>Full Stack Geliştirici</h2>
                     </div>
                 </div>
                 <div className='cust-description'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     Nulla nec ex eget dolor lobortis lacinia.
-                     Donec blandit ex vel felis tristique, sed elementum enim vestibulum.
+                    <p>"Harika bir proje! Kullanımı çok kolay ve etkili. Dil 
+                        öğrenmek isteyen herkesin denemesi gereken bir araç."
                     </p>
                 </div>
             </div>
